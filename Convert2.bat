@@ -4,8 +4,9 @@ set "version=v1.0.1"
 
 :start_loop
 cls
-echo CONVERT2: H.264 to AV1 Video Converter Script
-echo Created by: BurntToasters
+echo CONVERT2: H.264 to AV1 Video Converter Script.
+echo NOTE: This script uses the NVIDIA NVENC encoder for AV1 encoding.
+echo Created by: BurntToasters.
 echo Source: https://github.com/BurntToasters/convert2x
 echo !version!
 echo ===========================
@@ -70,7 +71,7 @@ if "!conversionOption!"=="1" (
 :: spaces filename
 echo.
 echo Remove spaces from output filename? (y/n)
-set /p removeSpaces="Your choice [n]: "
+set /p removeSpaces="[n]: "
 
 :: Process filename
 if /i "!removeSpaces!"=="y" (
