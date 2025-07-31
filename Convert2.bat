@@ -1,11 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-set "version=v1.0.0"
+set "version=v1.0.1"
 
 :start_loop
 cls
 echo CONVERT2: H.264 to AV1 Video Converter Script
 echo Created by: BurntToasters
+echo Source: https://github.com/BurntToasters/convert2x
 echo !version!
 echo ===========================
 echo.
